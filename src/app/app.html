@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProyectoAngular</title>
+</head>
+
+<body>
+  <header>
+    <h1>{{titulo()}}</h1>
+  </header>
+
+  <section id="seccion1">
+    <div id="info1">
+      <p id="infoPerson"><span>M</span>i nombre es {{nombre()}}, tengo {{edad()}} y actualmente estoy estudiando
+        {{programa()}}.</p>
+      <p id="infoPerson2">En el año 2020 obtuve el titulo de: {{titulo_profesional()}}. A partir de ese momento, empecé
+        a trabajar
+        en una Fundación realizando terapia hídrica y enseñando natación a niños. Aunque me gusta la enseñanza, quería
+        ampliar mis conocimientos y ofertas laborales.</p>
+    </div>
+    <div id="ubicaImg">
+      <img id="img1" src="images/img1.jpeg" alt="">
+    </div>
+  </section>
+
+  <section id="seccion2">
+    <div id="cuadroFlotante">
+      <div id="infoCuadro">
+        <h2>Mi familia</h2>
+        <div id="ubicaImgText">
+          <img id="img2" src="images/img2.jpeg" alt="">
+          <div id="ubicaTxt">
+            <p class="info2">Mi familia es parte fundamental en mi vida. Me motivan y apoyan día a día, además, gracias a
+              ellos soy la persona que soy.</p>
+            <p class="info2">Mi núcleo familiar esta compuesto por: mis papás, mis dos hermanos y mis dos sobrinos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="seccion3">
+    
+  </section>
+</body>
+
+</html>
+
+<router-outlet />
